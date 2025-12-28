@@ -173,7 +173,7 @@ int main(int, char**)
         ImGui_ImplGlfw_NewFrame();
         ImGui::NewFrame();
 
-        if (ImGui::IsKeyPressed(ImGuiKey_F11, false))
+        if (ImGui::IsKeyPressed(ImGuiKey_Insert, false))
             cfg_mod_menu_visible = !cfg_mod_menu_visible;
 
         draw_debug_log();
