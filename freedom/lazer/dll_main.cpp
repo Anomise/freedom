@@ -64,7 +64,7 @@ static inline void imgui_new_frame()
 
     // process_hitobject();
 
-    if (ImGui::IsKeyPressed(ImGuiKey_F7, false))
+    if (ImGui::IsKeyPressed(ImGuiKey_Insert, false))
     {
         cfg_mod_menu_visible = !cfg_mod_menu_visible;
         ImGui::SaveIniSettingsToDisk(ImGui::GetIO().IniFilename);
